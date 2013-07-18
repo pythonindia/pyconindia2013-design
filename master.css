@@ -1,3 +1,40 @@
 body{
     background: #4dbfd9;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Helvetica, Arial, sans-serif;
+}
+
+#wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+nav{
+    background: #fff;
+    border-bottom: 4px solid #45abc2;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #45abc2;
+    font-size: 20px;
+    margin: 0 20px;
+    text-shadow: 0 1px 0 #3c94a8;
 }
