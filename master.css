@@ -72,8 +72,23 @@ header p h3{
     color: red;
 }
 
+
+a.biglink{
+    background: #295071;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #4DBFD9;
+}
+
+a.biglink:hover{
+    text-decoration: none;
+    border-bottom-width: 2px;
+}
+
 section h2{
-    font: 40px 'PT Mono';
+    font: 30px 'PT Mono';
     text-transform: lowercase;
     color: #295071;
     padding-bottom: 7px;
@@ -97,6 +112,17 @@ section small{
     color: #999;
     font: 11px 'Lora';
     font-style: italic;
+}
+
+
+#sponsors-list div > span{
+    display: block;
+    font: 16px 'PT Sans';
+    text-transform: uppercase;
+    width: 100%;
+    text-align: right;
+    color: #B3C8D6;
+    border-top: 5px solid #B3C8D6;
 }
 
 footer{
