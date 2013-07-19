@@ -59,11 +59,11 @@ header p{
 
 footer{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 310px;
     color: #fff;
     margin: 0;
     height: 100px;
-    background: #795043 url('img/bg_footer.png') repeat-x;
+    background: url('img/footer-illus.png') repeat-x center;
 }
 
 
