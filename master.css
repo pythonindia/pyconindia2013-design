@@ -65,3 +65,10 @@ footer{
     height: 150px;
     background: #795043 url('img/bg_footer.png') repeat-x;
 }
+
+
+#zen{
+    position: absolute;
+    top: 500px;
+    left: 20px;
+}
