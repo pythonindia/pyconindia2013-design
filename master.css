@@ -68,16 +68,33 @@ header p{
     text-shadow: 0 1px 0 #287;
 }
 
+header p h3{
+    color: red;
+}
+
 
 footer{
     text-align: center;
-    padding-top: 310px;
-    color: #fff;
+    padding-top: 280px;
+    color: #3a2923;
+    text-shadow: 0 -1px 0 #b47f6b;
     margin: 0;
-    height: 100px;
-    background: url('img/footer-illus.png') repeat-x center;
+    background: url('img/footer-illus.png') repeat-x center top;
 }
 
+footer p{
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+footer a{
+   color: #3a2923;
+   text-shadow: 0 -1px 0 #b47f6b;
+}
+
+footer a:hover{
+    text-shadow: none;
+}
 
 #zen{
     position: absolute;
