@@ -33,7 +33,7 @@ nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 800;
-    color: #45abc2;
+    color: #254f73;
     font-size: 20px;
     margin: 0 20px;
     text-shadow: 0 1px 0 #398;
@@ -59,10 +59,10 @@ header p{
 
 footer{
     text-align: center;
-    padding-top: 150px;
+    padding-top: 20px;
     color: #fff;
     margin: 0;
-    height: 150px;
+    height: 100px;
     background: #795043 url('img/bg_footer.png') repeat-x;
 }
 
