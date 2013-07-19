@@ -95,10 +95,6 @@ section h2{
     border-bottom: 3px solid #FCCE2A;
 }
 
-section h2:after{
-    content: "()";
-}
-
 section h2 span{
     color: #FCCE2A;
     margin-right: 10px;
@@ -155,7 +151,7 @@ footer a:hover{
 
 #zen{
     position: absolute;
-    top: 2000px;
+    top: 1750px;
     left: 20px;
 }
 
@@ -168,6 +164,8 @@ footer a:hover{
 #schedule-list{
     width: 100%;
     border-collapse: collapse;
+    margin: 0;
+    margin-top: -10px;
 }
 
 #schedule-list td{
@@ -178,13 +176,19 @@ footer a:hover{
 }
 
 #schedule-list td.light{
-    text-align: center;
-    font: 30px 'Lora';
-    font-style: italic;
-    color: #666;
-    padding: 20px;
+    font: 25px 'PT Mono';
+    color: #295071;
     border: none;
-    padding-top: 60px;
+    padding: 20px;
+}
+
+#schedule-list td a{
+    font: 12px 'Lora';
+    font-style: italic;
+}
+
+#schedule-list tr.title td{
+    border-top: 10px solid #295071;
 }
 
 #schedule-list td.heading{
