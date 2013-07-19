@@ -155,12 +155,40 @@ footer a:hover{
 
 #zen{
     position: absolute;
-    top: 500px;
+    top: 2000px;
     left: 20px;
 }
 
 #xkcd{
     position: absolute;
-    top: 650px;
+    top: 1000px;
     right: 20px;
+}
+
+#schedule-list{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#schedule-list td{
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    width: 30%;
+    border-right: 1px solid #eee;
+}
+
+#schedule-list td.light{
+    text-align: center;
+    font: 30px 'Lora';
+    font-style: italic;
+    color: #666;
+    padding: 20px;
+    border: none;
+    padding-top: 60px;
+}
+
+#schedule-list td.heading{
+    background: #eee;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
 }
