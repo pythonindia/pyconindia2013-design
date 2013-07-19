@@ -72,3 +72,9 @@ footer{
     top: 500px;
     left: 20px;
 }
+
+#xkcd{
+    position: absolute;
+    top: 650px;
+    right: 20px;
+}
