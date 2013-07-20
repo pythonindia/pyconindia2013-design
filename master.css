@@ -15,7 +15,7 @@ body{
 nav{
     background: #C8E0EF;
     border-bottom: 6px solid #4dbfd9;
-    padding: 10px 0;
+    padding: 0;
     text-align: center;
     position: fixed;
     top: 0;
@@ -28,10 +28,14 @@ nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
+    width: 1000px;
+    margin: 0 auto;
 }
 
 nav ul li{
     display: inline;
+    float: left;
+    padding: 10px;
 }
 
 nav ul li a{
@@ -40,9 +44,31 @@ nav ul li a{
     font-weight: 600;
     color: #254f73;
     font-size: 20px;
-    margin: 0 20px;
+    margin: 0 10px;
     text-shadow: 0 -1px 0 #fff;
 }
+
+nav ul li:hover{
+    background: #4dbfd9;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+}
+
+#register-link{
+    background: #FCCE2A;
+}
+
+#register-link a{
+    color: #fff;
+    text-shadow: 0 -1px 0 #aa4;
+}
+
+#register-link:hover{
+    background: #4dbfd9;
+}
+
 
 header{
     margin-top: 50px;
