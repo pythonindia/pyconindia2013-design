@@ -52,8 +52,13 @@ nav ul li:hover{
     background: #4dbfd9;
 }
 
+nav ul li:hover a{
+    text-shadow: none;
+}
+
 nav ul li a:hover{
     text-decoration: none;
+    text-shadow: none;
 }
 
 #register-link{
