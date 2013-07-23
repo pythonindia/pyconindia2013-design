@@ -249,37 +249,37 @@ footer a:hover{
     right: 20px;
 }
 
-#schedule-list{
+.schedules_table{
     width: 100%;
     border-collapse: collapse;
     margin: 0;
     margin-top: -10px;
 }
 
-#schedule-list td{
+.schedules_table td{
     padding: 20px;
     border-bottom: 1px solid #ddd;
     width: 30%;
     border-right: 1px solid #eee;
 }
 
-#schedule-list td.light{
+.schedules_table td.light{
     font: 25px 'PT Mono';
     color: #295071;
     border: none;
     padding: 20px;
 }
 
-#schedule-list td a{
+.schedules_table td a{
     font: 12px 'Lora';
     font-style: italic;
 }
 
-#schedule-list tr.title td{
+.schedules_table tr.title td{
     border-top: 10px solid #295071;
 }
 
-#schedule-list td.heading{
+.schedules_table td.heading{
     background: #eee;
     border-right: 1px solid #ddd;
     border-left: 1px solid #ddd;
