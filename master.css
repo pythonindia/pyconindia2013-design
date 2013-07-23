@@ -267,10 +267,21 @@ footer a:hover{
 }
 
 .schedules_table td.light{
-    font: 25px 'PT Mono';
+    font-size: 24px;
+    font-weight: 600;
     color: #295071;
     border: none;
-    padding: 20px;
+}
+
+
+.schedules_table td.light small{
+    font: 18px 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    color: #295071;
+    border: none;
+    padding: 0;
+    margin-bottom: -10px;
 }
 
 .schedules_table td a{
