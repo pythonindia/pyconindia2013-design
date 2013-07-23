@@ -182,9 +182,9 @@ section h2{
 }
 
 section h2 span{
-    color: #F9BE06;
+/*    color: #F9BE06;*/
     margin-right: 10px;
-    letter-spacing: -5px;
+    letter-spacing: -8px;
 }
 
 section h3{
