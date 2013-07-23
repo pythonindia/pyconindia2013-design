@@ -62,7 +62,7 @@ nav ul li a:hover{
 }
 
 #register-link{
-    background: #FCCE2A;
+    background: #F9BE06;
 }
 
 #register-link a{
@@ -107,7 +107,7 @@ header{
 #title h1 span{
     font-weight: 300;
     font-style: italic;
-    color: #FCCE2A;
+    color: #F9BE06;
     font-size: 30px;
 }
 
@@ -120,7 +120,7 @@ header{
 #title small span{
     font: 16px 'Lora';
     font-style: italic;
-    color: #FCCE2A;
+    color: #F9BE06;
 }
 
 header #logo{
@@ -142,7 +142,7 @@ header div#about{
 
 header div#about > div{
     float: right;
-    background: #FCCE2A;
+    background: #F9BE06;
     margin-left: 10px;
     width: 200px;
     text-shadow: none;
@@ -178,11 +178,11 @@ section h2{
     text-transform: lowercase;
     color: #295071;
     padding-bottom: 7px;
-    border-bottom: 3px solid #FCCE2A;
+    border-bottom: 3px solid #F9BE06;
 }
 
 section h2 span{
-    color: #FCCE2A;
+    color: #F9BE06;
     margin-right: 10px;
     letter-spacing: -5px;
 }
