@@ -258,10 +258,12 @@ footer a:hover{
 }
 
 .schedules_table td{
+    vertical-align: top;
     padding: 20px;
     border-bottom: 1px solid #ddd;
-    width: 30%;
+    width: 25%;
     border-right: 1px solid #eee;
+    font-size: 17px;
 }
 
 .schedules_table td.light{
