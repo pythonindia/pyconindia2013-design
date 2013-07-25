@@ -304,8 +304,9 @@ footer a:hover{
 /* Keynote speakers */
 div.keynotespeakerpic{
     text-align: center;
-    padding-bottom: 20px;
-    background: transparent url("img/downarrow.png") no-repeat center bottom;
+    padding-bottom: 15px;
+/*    padding-bottom: 20px;
+    background: transparent url("img/downarrow.png") no-repeat center bottom;*/
 }
 
 div.keynotespeakerpic img{
