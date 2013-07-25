@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    background: red;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-indent: 0;
+}
+
+
+
+header{
+    border-top: 20px solid #2D516F;
+    border-bottom: 2px solid #61BDD6;
+    padding: 20px;
+}
+
+#pythonlogo{
+    width: 50px;
+    float: left;
+}
+
+#title h1{
+    color: #2D516F;
+    font-size: 55px;
+    letter-spacing: -2px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: -3px;
+}
+
+#title h1 span{
+    font-weight: 300;
+    font-style: italic;
+    color: #F9BE06;
+    font-size: 30px;
+}
+
+#title small{
+    color: #2D516F;
+    font: 20px 'Lato';
+    font-weight: 600;
+}
+
+#title small span{
+    font: 16px 'Lora';
+    font-style: italic;
+    color: #F9BE06;
+}
+
+
+
+#xkcd, #zen{display: none;}
