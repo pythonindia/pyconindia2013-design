@@ -363,12 +363,18 @@ div.keynotespeakerinfo{
 }
 
 #oldphotostitle{
-    background: #2D516F;
+/*    background: #2D516F;
     color: #fff;
-    padding: 10px;
+    padding: 10px;*/
 }
 
 #oldphotostitle h2{
+    font: 30px 'Lato';
+    padding: 0;
+    margin: 0;
+    text-transform: -1px;
+    font-weight: 800;
+    text-transform: none;
     color: #fff;
     border: none;
 }
