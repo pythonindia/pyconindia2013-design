@@ -1,7 +1,14 @@
+#twitter, #oldphotos, #pyconpresentations, #speak, #sponsor, #participate, #keynotespeakers, #xkcd, #zen{display: none;}
+
 body{
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+}
+
+.clearspace{
+    height: 0;
+    overflow: hidden;
 }
 
 .wrapper{
@@ -9,6 +16,9 @@ body{
     padding: 0;
 }
 
+
+
+/* Nav */
 nav{
     margin: 0;
     padding: 0;
@@ -23,16 +33,16 @@ nav ul{
 }
 
 
-
+/* Header */
 header{
     border-top: 20px solid #2D516F;
     border-bottom: 2px solid #61BDD6;
-    padding: 20px;
 }
 
 #pythonlogo{
-    width: 50px;
+    width: 60px;
     float: left;
+    margin: 20px;
 }
 
 #title h1{
@@ -63,6 +73,109 @@ header{
     color: #F9BE06;
 }
 
+header div#about{
+    margin-top: 10px;
+    background: #2d516f;
+    padding: 20px;
+    padding-top: 5px;
+    font: 17px 'Lato';
+    font-weight: 300;
+    color: #fff;
+    text-shadow: 0 -1px 0 #000;
+    line-height: 25px;
+    text-align: center;
+}
+
+header div#about > div{
+    background: #fff;
+    color: #2D516F;
+    margin: 10px;
+    text-shadow: none;
+    font-weight: 800;
+    font-size: 17px;
+    letter-spacing: -1px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 17px;
+}
+
+header div#about > div small{
+    font-weight: 300;
+}
 
 
-#xkcd, #zen{display: none;}
+/* All Sections */
+section{
+    margin-top: 30px;
+}
+
+section h2{
+    font: 30px 'PT Mono';
+    text-transform: lowercase;
+    color: #295071;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #F9BE06;
+    margin: 20px;
+}
+
+section h2 span{
+    display: none;
+}
+
+
+/* Venue */
+#venue_details{
+    background: #2D516F;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+    padding: 20px;
+}
+
+#venue_details h2{
+    color: #fff;
+    border-color: #fff;
+    margin: 0;
+}
+
+#venue_details small{
+    color: #ddd;
+}
+
+#venue_details a{
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dotted #fff;
+}
+
+#venue_details p{
+    margin-top: -30px;
+}
+
+
+
+/* Footer */
+footer{
+    text-align: center;
+    padding-top: 30px;
+    color: #3a2923;
+    text-shadow: 0 -1px 0 #b47f6b;
+    margin: 0;
+    background-color: #795547;
+    border-top: 10px #5BC55C solid;
+}
+
+footer p{
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+footer a{
+   color: #3a2923;
+   text-shadow: 0 -1px 0 #b47f6b;
+}
+
+footer a:hover{
+    text-shadow: none;
+}
