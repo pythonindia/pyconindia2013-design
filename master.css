@@ -6,7 +6,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-#wrapper{
+.wrapper{
     width: 1000px;
     margin: 0 auto;
     text-align: left;
@@ -318,4 +318,36 @@ div.keynotespeakerpic img{
 div.keynotespeakerinfo{
     font-size: 20px;
     text-align: center;
+}
+
+
+/* Venue */
+.map{
+    marign: 0;
+    padding: 0;
+    background: transparent url("img/bg_map.png");
+    height: 400px;
+}
+
+#venue_details{
+    background: #2D516F;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 400px;
+    padding: 40px;
+    color: #fff;
+}
+
+#venue_details h2{
+    color: #fff;
+    border-color: #fff;
+}
+
+#venue_details small{
+    color: #ddd;
+}
+
+#venue_details a{
+    color: #fff;
+    border-bottom: 1px dotted #fff;
 }
