@@ -142,17 +142,18 @@ header div#about{
 
 header div#about > div{
     float: right;
-    background: #F9BE06;
+    background: #fff;
+    color: #2D516F;
     margin-left: 10px;
-    width: 220px;
     text-shadow: none;
+    width: 220px;
     font-weight: 800;
-    font-size: 15px;
+    font-size: 17px;
+    letter-spacing: -1px;
     text-align: left;
     padding: 10px;
     border-radius: 5px;
     line-height: 17px;
-    text-shadow: 0 -1px 0 #aa4;
 }
 
 header div#about > div small{
