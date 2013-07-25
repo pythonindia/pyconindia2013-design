@@ -208,6 +208,35 @@ section small{
 }
 
 
+#sponsors-list{
+    text-align: center;
+}
+
+#sponsors-list h2{
+    text-align: left;
+}
+
+#sponsors-list img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+    margin: 20px;
+}
+
+#sponsors-list img:hover{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+#sponsors-list img.platinum{width: 500px;}
+#sponsors-list img.gold{width: 250px;}
+#sponsors-list img.silver{width: 125px;}
+
+
+
 #sponsors-list div > span{
     display: block;
     font: 16px 'PT Sans';
