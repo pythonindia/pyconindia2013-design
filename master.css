@@ -353,3 +353,22 @@ div.keynotespeakerinfo{
     color: #fff;
     border-bottom: 1px dotted #fff;
 }
+
+/* Old Photos */
+#oldphotos{
+    margin: 0;
+    padding: 0;
+    background: url("img/imagegrid.png");
+    height: 400px;
+}
+
+#oldphotostitle{
+    background: #2D516F;
+    color: #fff;
+    padding: 10px;
+}
+
+#oldphotostitle h2{
+    color: #fff;
+    border: none;
+}
