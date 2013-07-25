@@ -326,6 +326,11 @@ div.keynotespeakerinfo{
     text-align: center;
 }
 
+div.keynotespeakerinfo small{
+    font: 14px 'Lato';
+    text-transform: uppercase;
+}
+
 
 /* Venue */
 .map{
