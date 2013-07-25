@@ -298,3 +298,24 @@ footer a:hover{
     border-right: 1px solid #ddd;
     border-left: 1px solid #ddd;
 }
+
+
+
+/* Keynote speakers */
+div.keynotespeakerpic{
+    text-align: center;
+    padding-bottom: 20px;
+    background: transparent url("img/downarrow.png") no-repeat center bottom;
+}
+
+div.keynotespeakerpic img{
+    width: 200px;
+    height: 200px;
+    border-radius: 170px;
+    border: 10px solid #4DBFD9;
+}
+
+div.keynotespeakerinfo{
+    font-size: 20px;
+    text-align: center;
+}
