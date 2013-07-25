@@ -378,3 +378,25 @@ div.keynotespeakerinfo{
     color: #fff;
     border: none;
 }
+
+/* Video Meta */
+.videometa h3{
+    margin: 0;
+    margin-top: 10px;
+    letter-spacing: -1px;
+    padding: 0;
+    color: #2D516F;
+    font-size: 40px;
+}
+
+.videometa small{
+    display: block;
+    margin-top: -5px;
+    font-size: 14px;
+}
+
+.videometa p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #aaa;
+}
