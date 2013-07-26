@@ -255,7 +255,7 @@ section h2 span{
 /* Venue */
 #venue_details{
     background: #2D516F;
-    margin-top: 0;
+    margin-top: -30px;
     margin-bottom: 0;
     color: #fff;
     padding: 20px;
@@ -286,17 +286,21 @@ section h2 span{
 /* Footer */
 footer{
     text-align: center;
-    padding-top: 30px;
-    color: #3a2923;
-    text-shadow: 0 -1px 0 #b47f6b;
     margin: 0;
-    background-color: #795547;
-    border-top: 10px #5BC55C solid;
+    margin-top: 40px;
+    padding-top: 85px;
+    color: #fff;
+    text-shadow: 0 -1px 0 #b47f6b;
+    background-color: transparent;
+    background-image: url("img/footer-small.png"), url('img/bg_small_footer.png');
+    background-repeat: no-repeat, repeat-x;
+    background-position: center top, center bottom;
+/*    border-top: 10px #5BC55C solid;*/
 }
 
 footer p{
     margin: 0;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 footer a{
