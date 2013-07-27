@@ -197,6 +197,17 @@ section h2 span{
     letter-spacing: -8px;
 }
 
+section h2{
+    font: 35px 'Lato';
+    font-weight: 800;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+section h2 span{
+    display: none;
+}
+
 section h3{
     font-size: 20px;
     line-height: 20px;

@@ -163,8 +163,10 @@ section{
 }
 
 section h2{
-    font: 30px 'PT Mono';
-    text-transform: lowercase;
+    font: 30px 'Lato';
+    font-weight: 800;
+    letter-spacing: -1px;
+    text-transform: uppercase;
     color: #295071;
     padding-bottom: 7px;
     border-bottom: 3px solid #F9BE06;
