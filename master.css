@@ -370,8 +370,13 @@ div.keynotespeakerinfo small{
     marign: 0;
     padding: 0;
     background: transparent url("img/bg_map.png");
-    height: 400px;
+    height: 450px;
+    border: 4px solid #F9BE06;
+    border-left: none;
+    border-right: none;
 }
+
+#venue{display:none;}
 
 #venue_details{
     background: #2D516F;
