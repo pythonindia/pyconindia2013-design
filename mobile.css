@@ -1,4 +1,4 @@
-#schedule, #workshops ,#twitter, #oldphotos, #pyconpresentations, #speak, #sponsor, #participate, #keynotespeakers, #xkcd, #zen{display: none;}
+#schedule, #workshops ,#twitter, #oldphotos, #pyconpresentations, #speak, #sponsor, #participate, #xkcd, #zen{display: none;}
 
 body{
     margin: 0;
@@ -342,3 +342,31 @@ footer a:hover{
 #sponsors-list img.platinum{width: 300px;}
 #sponsors-list img.gold{width: 150px;}
 #sponsors-list img.silver{width: 75px;}
+
+
+/* Keynote speakers */
+div.keynotespeakerpic{
+    float: left;
+}
+
+div.keynotespeakerpic img{
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 45px;
+    border: 5px solid #4DBFD9;
+    float: left;
+}
+
+div.keynotespeakerinfo{
+    font-size: 20px;
+    clear: right;
+    height: 80px;
+    padding-top: 30px;
+}
+
+div.keynotespeakerinfo small{
+    font: 14px 'Lato';
+    text-transform: uppercase;
+}
