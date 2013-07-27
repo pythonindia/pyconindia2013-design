@@ -1,4 +1,4 @@
-#schedule, #workshops,#sponsors-list,#twitter, #oldphotos, #pyconpresentations, #speak, #sponsor, #participate, #keynotespeakers, #xkcd, #zen{display: none;}
+#schedule, #workshops ,#twitter, #oldphotos, #pyconpresentations, #speak, #sponsor, #participate, #keynotespeakers, #xkcd, #zen{display: none;}
 
 body{
     margin: 0;
@@ -312,3 +312,33 @@ footer a{
 footer a:hover{
     text-shadow: none;
 }
+
+
+/* Sponsors */
+#sponsors-list{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#sponsors-list h2{
+    text-align: left;
+}
+
+#sponsors-list img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+    margin: 20px;
+}
+
+#sponsors-list img:hover{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+#sponsors-list img.platinum{width: 300px;}
+#sponsors-list img.gold{width: 150px;}
+#sponsors-list img.silver{width: 75px;}
