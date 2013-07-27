@@ -436,3 +436,14 @@ div.keynotespeakerinfo small{
     font-size: 16px;
     color: #aaa;
 }
+
+
+/* Blog */
+.post-date{
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.post-content{
+    margin-bottom: 100px;
+}
