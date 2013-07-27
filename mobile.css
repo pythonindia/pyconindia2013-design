@@ -1,4 +1,4 @@
-#sponsors-list,#twitter, #oldphotos, #pyconpresentations, #speak, #sponsor, #participate, #keynotespeakers, #xkcd, #zen{display: none;}
+#schedule, #workshops,#sponsors-list,#twitter, #oldphotos, #pyconpresentations, #speak, #sponsor, #participate, #keynotespeakers, #xkcd, #zen{display: none;}
 
 body{
     margin: 0;
@@ -198,7 +198,6 @@ section h2 span{
     font-weight: 600;
     color: #295071;
     border: none;
-    text-align: right;
 }
 
 
