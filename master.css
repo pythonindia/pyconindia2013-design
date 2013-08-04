@@ -413,11 +413,12 @@ div.keynotespeakerinfo small{
 }
 
 /* Old Photos */
+#pyconpresentations{display:none;}
 #oldphotos{
     margin: 0;
     padding: 0;
-    background: url("img/imagegrid.png");
-    height: 400px;
+    background: url("img/imgnvid.Png");
+    height: 787px;
 }
 
 #oldphotostitle{
