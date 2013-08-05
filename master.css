@@ -266,6 +266,7 @@ footer{
     text-align: center;
     padding-top: 280px;
     color: #3a2923;
+    color: #fff;
     text-shadow: 0 -1px 0 #b47f6b;
     margin: 0;
     background-image: url('img/footer-illus.png'), url('img/ground.png');
@@ -285,6 +286,7 @@ footer a{
 
 footer a:hover{
     text-shadow: none;
+    color: #fff;
 }
 
 #zen{
