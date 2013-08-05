@@ -6,10 +6,6 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-#mobile-shcedule, #mobile-worshops{
-    display: none;
-}
-
 .clearspace{
     padding: 30px;
 }
@@ -380,7 +376,7 @@ div.keynotespeakerinfo small{
 
 /* Venue */
 .map{
-    marign: 0;
+    margin: 0;
     padding: 0;
     background: transparent url("img/bg_map.png");
     height: 450px;
@@ -389,13 +385,13 @@ div.keynotespeakerinfo small{
     border-right: none;
 }
 
-#venue{display:none;}
+/*#venue{display:none;}*/
 
 #venue_details{
     background: #2D516F;
     margin-top: 0;
     margin-bottom: 0;
-    height: 400px;
+    height: 450px;
     padding: 40px;
     color: #fff;
 }
@@ -469,4 +465,8 @@ div.keynotespeakerinfo small{
 
 .post-content{
     margin-bottom: 100px;
+}
+
+#mobile-schedule, #mobile-workshops{
+    display: none;
 }
